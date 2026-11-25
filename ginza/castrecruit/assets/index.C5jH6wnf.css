@@ -2,3 +2,8 @@
 .fv__content{position:relative;z-index:3}
 .fv__title,.intro__description{text-shadow:0 2px 18px #000000a6,0 1px 2px #0000008c}
 .fv__content{z-index:auto}
+.way__bg-fg-slide img{filter:hue-rotate(190deg) saturate(.86) sepia(.08) brightness(1.0) contrast(1.13)}
+.way__bg-fg-slide{position:absolute}
+.way__bg-fg-slide:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(125deg,#ffffff2e 0%,#fff0 20%,#fff0 100%),radial-gradient(circle at 85% 92%,#b43c5a1a,transparent 55%);mix-blend-mode:soft-light}
+
+.way__bg-fg-layer-inner{filter:drop-shadow(0 20px 45px #ffb9a040)}
