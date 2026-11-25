@@ -6,4 +6,16 @@
 .way__bg-fg-slide{position:absolute}
 .way__bg-fg-slide:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(125deg,#ffffff2e 0%,#fff0 20%,#fff0 100%),radial-gradient(circle at 85% 92%,#b43c5a1a,transparent 55%);mix-blend-mode:soft-light}
 
-.way__bg-fg-layer-inner{filter:drop-shadow(0 20px 45px #ffb9a040)}
+.way__bg-fg-layer-inner{filter:drop-shadow(0 20px 45px #ffb9a040)}#Interview{background:linear-gradient(180deg,#1dbc6a 0%,#0f7a45 100%)}
+.design__intro .section__title{text-shadow:0 2px 22px #000000d9,0 0 8px #000000a6}
+.design__intro .section__title-en:before{content:"";position:absolute;inset:-2.5rem -4rem;background:radial-gradient(ellipse at center,#000000a6,transparent 68%);z-index:-1}
+.design__intro .section__title-en{position:relative}
+.design__bg-item .design__article-bg-list-item{filter:brightness(.68) contrast(1.06) saturate(.9)}
+.design__intro .section__title{position:relative}
+.design__intro .section__title:before{content:"";position:absolute;inset:-3rem -5rem;background:radial-gradient(ellipse at center,#000000b3 0%,#00000066 42%,transparent 72%);z-index:-1;pointer-events:none}
+.design__intro .section__title{background:radial-gradient(ellipse at center,#080a08c9 0%,#080a0870 42%,transparent 72%);padding:3.2rem 5.4rem;border:0;box-shadow:none}
+.design__intro .section__title-en{width:20rem}
+.join{position:relative;overflow:hidden}
+.join:before{content:"";position:absolute;left:50%;top:47%;width:min(86vw,54rem);aspect-ratio:1;transform:translate(-50%,-50%);border:1px dashed #f7f7ee2e;border-radius:50%;background:radial-gradient(circle,transparent 58%,#1dbc6a14 59%,transparent 61%);box-shadow:0 0 90px #1dbc6a38,inset 0 0 90px #1dbc6a26;pointer-events:none;z-index:0}
+.join:after{content:"";position:absolute;left:50%;top:47%;width:min(66vw,41rem);aspect-ratio:1;transform:translate(-50%,-50%);border:1px solid #f7f7ee1a;border-radius:50%;pointer-events:none;z-index:0}
+.join>*{position:relative;z-index:1}
