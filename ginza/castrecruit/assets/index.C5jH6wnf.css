@@ -19,3 +19,4 @@
 .join:before{content:"";position:absolute;left:50%;top:47%;width:min(86vw,54rem);aspect-ratio:1;transform:translate(-50%,-50%);border:1px dashed #f7f7ee2e;border-radius:50%;background:radial-gradient(circle,transparent 58%,#1dbc6a14 59%,transparent 61%);box-shadow:0 0 90px #1dbc6a38,inset 0 0 90px #1dbc6a26;pointer-events:none;z-index:0}
 .join:after{content:"";position:absolute;left:50%;top:47%;width:min(66vw,41rem);aspect-ratio:1;transform:translate(-50%,-50%);border:1px solid #f7f7ee1a;border-radius:50%;pointer-events:none;z-index:0}
 .join>*{position:relative;z-index:1}
+@media(min-width:768px){.design__intro .section__title-en{width:22rem}}
